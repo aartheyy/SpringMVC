@@ -35,7 +35,7 @@ public class DemoController {
 		logger.info("show method...");
 		Demo demo = new Demo();
 		demo.setTitle("Spring MVC Demo");
-		demo.setName("Hongten");
+		demo.setName("Hi Hongten");
 		model.addAttribute("demo", demo);
 		return "demo/show";
 	}
